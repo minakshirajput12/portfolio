@@ -1,0 +1,79 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFDD0;
+    padding: 10px 40px;
+    width: 100%;
+    height: 60px;
+}
+header div{
+    margin-top: 10px;
+}
+header div a{
+    margin-right: 40px;
+    text-decoration: none;
+    margin-right: 20px;
+    color:  #6A5ACD;
+    font-weight: bold;
+}
+header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #6A5ACD;
+}
+.about-section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #6A5ACD;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-pic {
+    width: 170px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+    border: 2px solid #FFFDD0;
+}
+
+.about-section h2 {
+    font-size: 2.5em;
+    color: #6A5ACD;
+    margin-bottom: #FFFDD0;
+}
+
+.about-section p {
+    font-size: 1.1em;
+    color: #FFFDD0;
+    margin-bottom: 15px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.about-section p:last-child {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFFDD0;
+}
+.about-section p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #FFFDD0;
+}
+
+.about-section p::after {
+    content: " 💻✨";
+}
+

@@ -1,0 +1,42 @@
+iframe{
+    border: none;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-left: 480px;
+}
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFFDD0;
+    padding: 10px 40px;
+    width: 100%;
+    height: 60px;
+}
+header div{
+    margin-top: 10px;
+}
+header div a{
+    margin-right: 40px;
+    text-decoration: none;
+    margin-right: 20px;
+    color:  #6A5ACD;
+    font-weight: bold;
+}
+header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #6A5ACD;
+}
+nav{
+     background-color: #6A5ACD;
+}
